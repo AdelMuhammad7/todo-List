@@ -113,6 +113,7 @@ function showBtnDeleteAll (){
         
         deleteAll.onclick = ()=> {
             data = []
+            counter = 0
             showTheTask()
             deleteAll.style.display = "none"
             taskDetails.style.display = "none"
